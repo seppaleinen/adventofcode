@@ -12,7 +12,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
         <cucumber.version>1.2.4</cucumber.version>
     </properties>
 
@@ -21,11 +20,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.6</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-expression</artifactId>
-            <version>4.2.3.RELEASE</version>
         </dependency>
 
         <!-- Test -->
@@ -47,7 +41,6 @@
             <version>${cucumber.version}</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
 </project>

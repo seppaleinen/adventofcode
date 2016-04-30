@@ -9,12 +9,11 @@ import lombok.extern.java.Log;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 
 import static org.junit.Assert.assertEquals;
 
 @Log
-public class DayTwoSteps {
+public class Day002Steps {
     private List<String> input;
     private int answer = 0;
 
