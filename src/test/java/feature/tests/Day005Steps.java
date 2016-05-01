@@ -36,6 +36,7 @@ public class Day005Steps {
         this.answer = 0;
 
         for(String input: inputList) {
+            log.info(input);
             int vowels = 0;
             boolean sameCharactersInRow = false;
             Character previousChar = ' ';
