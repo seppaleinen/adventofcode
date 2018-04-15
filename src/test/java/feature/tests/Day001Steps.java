@@ -6,7 +6,6 @@ import cucumber.api.java.en.When;
 import lombok.extern.java.Log;
 import se.david.adventofcode.Day001;
 
-
 import static org.junit.Assert.assertEquals;
 
 @Log

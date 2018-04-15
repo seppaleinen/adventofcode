@@ -8,9 +8,7 @@ import gherkin.formatter.model.DataTableRow;
 import lombok.extern.java.Log;
 import se.david.adventofcode.Day005;
 
-import javax.xml.bind.DatatypeConverter;
 import java.io.UnsupportedEncodingException;
-import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
